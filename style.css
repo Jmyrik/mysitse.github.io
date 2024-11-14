@@ -1,0 +1,113 @@
+/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #f9f9f9;
+    background: url('dota2-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Полупрозрачный фон для текста */
+header, main, footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Темный полупрозрачный фон */
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 10px 0;
+    color: #f9f9f9;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #ffcc00; /* Цвет заголовков в стиле Dota */
+}
+
+.role ul li {
+    color: #dddddd;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.item h3 {
+    color: #ffcc00;
+}
+
+.item p {
+    margin: 5px 0;
+}
+
+.item a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
+.strategy {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.strategy h3 {
+    color: #ffcc00;
+}
+
+.strategy p {
+    margin: 5px 0;
+}
+
+.strategy a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.strategy a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
